@@ -19,8 +19,8 @@ const NODE_ENV = process.env.NODE_ENV || 'development';
 
 // 🌐 Environment-aware CORS setup
 const allowedOrigins = {
-  development: ['http://localhost:3000'],
-  production: ['https://your-production-frontend-url.com'], // ✅ Replace with actual frontend URL
+  development: ["http://localhost:3000"],
+  production: ["https://mini-ecommerce-frontend-tawny.vercel.app"]
 };
 
 app.use(cors({
